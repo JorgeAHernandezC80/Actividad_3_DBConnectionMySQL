@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DBConnection {
+public class DBConnection{
     // Configuración de conexión
     private static final String URL = "jdbc:mysql://localhost:3306/registro_profesores"; // Cambia por tu BD
     private static final String USUARIO = "root";
