@@ -10,6 +10,10 @@ public class Persona {
     private double estatura;
     private double peso;
 
+    public Persona() {
+        // Optionally initialize fields with default values
+    }
+
     public Persona(String nombre, String apellido, Date fechaNacimiento, String genero, double estatura, double peso) {
         this.nombre = nombre;
         this.apellido = apellido;
