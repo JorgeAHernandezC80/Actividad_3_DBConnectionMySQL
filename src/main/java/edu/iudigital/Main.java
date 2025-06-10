@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class Main {
+public class Main{
     private static final SimpleDateFormat FORMATO_FECHA = new SimpleDateFormat("MM-dd-yyyy");
     private static final Pattern SOLO_LETRAS = Pattern.compile("^[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+$");
 
